@@ -1,6 +1,5 @@
 #Auto File Delete Added By @CrezyBotz
-import os # Start Command Reactions
-REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"] #don't add any emoji because tg not support all emoji reactions
+import os Fir upr from info import REACTIONS
 import logging
 import random
 import asyncio
