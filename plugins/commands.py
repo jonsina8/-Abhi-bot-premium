@@ -1,5 +1,5 @@
 #Auto File Delete Added By @CrezyBotz
-import os Fir upr from info import REACTIONS
+import os Fir
 import logging
 import random
 import asyncio
