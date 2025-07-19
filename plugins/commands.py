@@ -1,3 +1,4 @@
+await message.react(emoji=random.choice(REACTIONS), big=True)
 #Auto File Delete Added By @CrezyBotz
 import os 
 import logging
