@@ -1240,4 +1240,4 @@ async def stop_button(bot, message):
     await asyncio.sleep(3)
     await msg.edit("<b><i><u>ʙᴏᴛ ɪꜱ ʀᴇꜱᴛᴀʀᴛᴇᴅ</u> ✅</i></b>")
     os.execl(sys.executable, sys.executable, *sys.argv)
-await message.react(emoji=random.choice(REACTIONS), big=True)
+
