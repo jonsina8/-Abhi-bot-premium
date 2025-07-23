@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
-STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'SDLinks.in'))
+STREAM_API = (environ.get('STREAM_API', '8b90e78387824726d5e1050aa7a6c4f8c47314e9'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
 # Admins, Channels & Users
