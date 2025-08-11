@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in))
+STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
 STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
