@@ -31,7 +31,7 @@ CODE = (environ.get('CODE', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
 STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/movies_updet'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334 7436687322').split()]
@@ -39,7 +39,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1807927334').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002346311796')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002520793005')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -65,7 +65,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+GK5SsPo9cWVjMzI1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_updet')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod09/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Abhikumar7799')
